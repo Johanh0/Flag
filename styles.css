@@ -24,12 +24,11 @@ main {
   top: 0;
   left: 0;
   width: 390px;
-  height: 269px;
-
-  & img {
-    width: 100%;
-    height: 100%;
-  }
+  height: 266px;
+  background-image: url("./assets/stars.png");
+  background-position: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .lines__container {
